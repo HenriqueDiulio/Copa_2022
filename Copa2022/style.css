@@ -1,0 +1,77 @@
+/*text-transform deixa todo o texto em caixa alta*/
+#title{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*alterando cor de fundo"body", alterando largura e adicionando uma margem ao site
+
+width - largura
+height - altura
+*/
+body{
+    background: #750424;
+    width: 900px;
+    margin: auto;
+}
+
+/*Alterando a cor dos titulos e fonte*/
+#title, .subtitle{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+top = Lado de Cima
+bottom = Lado de Baixo
+left = Lado Esquerdo
+right = Lado Direto
+
+.post - ta alterando cor de fundo, paddin(borda entre o texto e a margin),
+borda(border) que esta sendo exibida em perto.
+*/
+.post{
+    
+    background-color: white;
+    padding: 15px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+}
+/*ALterando o tamanho da latra, estilo, e fonte*/
+.post{
+    font-size: 18px;
+    font-style: italic;
+    font-family: Arial;
+}
+/* text-align serve para alinhamento de texto
+Justify- texto alinhado
+center - centralizado no meio
+left - centralizado na esqueda
+rigth - centalizado na direita 
+*/
+.post p{
+    text-align: justify;
+}
+
+/*Para fazer alteração no marcador da lista(pontinho ou numero) utiliza-se o list-style-type*/
+.contacts_list{
+    /*"none" e para remover o marcados*/
+    list-style-type: none;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.contacts_list li a{
+    color: white;
+}
+/*Dimensionando imagem em larura e altura*/
+.logo_image{        
+    width: 300px;
+    height: 300px;
+    padding-left: 300px;
+}
+.post header img{
+    width: 860px;
+    height: 500px;
+
+}
+
